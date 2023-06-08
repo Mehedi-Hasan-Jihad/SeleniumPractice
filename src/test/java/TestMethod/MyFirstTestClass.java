@@ -1,4 +1,4 @@
-package com.bd.IT_Training_BD_P1;
+package TestMethod;
 
 import static org.testng.Assert.assertEquals;
 
