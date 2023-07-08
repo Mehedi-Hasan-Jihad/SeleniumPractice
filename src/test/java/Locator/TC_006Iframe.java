@@ -16,8 +16,10 @@ public class TC_006Iframe extends DriverUtils {
 		Thread.sleep(5000);
 		
 		
-		//accessing to iframe 
+		//accessing to iframe by name
 		//driver.switchTo().frame("courses-iframe");
+		
+		//accessing to iframe by name
 		driver.switchTo().frame(0);
 		System.out.println(driver.findElement(By.linkText("Courses")).getText());
 		Thread.sleep(5000);
